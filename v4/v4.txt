@@ -1,0 +1,2 @@
+arrays and array like objects are diferent things and has different methodes on them
+

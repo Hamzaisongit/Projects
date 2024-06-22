@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    z-index: -1;
+}
+
+.bg{
+    height: 670px;
+    width: 65vw;
+    background: url("https://images.pexels.com/photos/1444424/pexels-photo-1444424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center/cover no-repeat ;
+    /* border: 2px solid white; */
+    border-radius: 1rem;
+    position: relative;
+    top: 40px;
+    margin-left: 2.5vw;
+    box-shadow: 10px 9px 50px -5px rgba(0,0,0,0.8);
+}
+
+.left{
+ position: relative;
+ right: 5vw;
+}
+
+.right{
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.container{
+    background-color: antiquewhite;
+    line-height: 15px;
+    padding: 20px 20px;
+    border-radius: 10%;
+}
+
+
+.btn{
+    border: none;
+    border-radius: 10px;
+    background-color: #4d4dff;
+    color: white;
+    padding: 8px 15px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all 0.1s linear;
+}
+
+.btn:hover{
+    background-color: #4d4dff;
+    font-size: 20px;
+    transition: all 0.1s linear;
+    box-shadow: 5px 5px 30px -5px rgba(0,0,0,0.8);
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+/*sidebar*/
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    z-index: 1;
+    transform: translate(-100%);
+    background-color: white;
+    width: 360px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    transition: all 0.3s linear;
+    box-shadow: 14px 3px 30px -5px rgba(0,0,0,0.8);
+}
+
+.show{
+    transform: translate(0);
+    transition: all 0.3s ease-out;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+
+.logo img{
+    height: 67px;
+    width: 67px;
+    border-radius: 50%;
+}
+
+.links li{
+    font-size: 20px;
+    padding: 30px 30px;
+}
+
+.btn2{
+    border: none;
+    background-color: transparent;
+}
+
+#Search{
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: #e7e7e7;
+}
+
+
+
+/*<img src="https://images.pexels.com/photos/1444424/pexels-photo-1444424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
