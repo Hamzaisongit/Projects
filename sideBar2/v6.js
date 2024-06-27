@@ -1,3 +1,5 @@
+// a comment that i just added
+
 const btn = document.querySelector('.btn');
 const toggle = document.querySelector('.btn2');
 const bar = document.querySelector('.sidebar');
